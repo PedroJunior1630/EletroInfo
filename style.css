@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pixel';
+    src: url('_fonts/Pixelfont.ttf');
+}
+
+div#interface{
+    width: 1200px;
+    padding: 30px;
+}
+body{
+    background-color: #D4D4D4;
+}
+
+header#cabecalho h1{
+    position: relative;
+    top: -160px;
+    left: 170px;
+    font-size: 60pt;
+    font-family: 'Pixel'
+}
+header#cabecalho img{
+    width: 128px;
+    height: 128px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+header#cabecalho nav#navega ol{
+    position: absolute;
+    list-style: none;
+    left: 600px;
+    top: 0px;
+
+}
+nav#navega a{
+    text-decoration: none;
+    color: black;
+}
+header#cabecalho nav#navega li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Pixel';
+    font-size: 30pt;
+    padding: 5px;
+    margin: 30px;
+    background-color: #FFA500;
+    border-radius: 5px;
+}
+
