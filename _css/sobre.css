@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pixel';
+    src: url('../_fonts/Pixelfont.ttf');
+}
+@font-face {
+    font-family: 'Pixelt';
+    src: url('../_fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: 'Pixelt';
+}
+div#about {
+    width: 800px;
+    height: 500px;
+    background-color: #4D4D4D;
+    border-radius: 10px;
+    padding: 40px;
+    margin: -100px auto 40px auto;
+    color: #FFA500;
+}
+
+section#sessao h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Pixel';
+    font-size: 40pt;
+    top: -10px;
+}
+
+section#sessao article {
+    font-size: 18pt;
+}
+
+footer#rodape{
+    height: 50px;
+    clear: both;
+    background-color: #FFA500;
+    border-radius: 5px;
+}
+
+footer#rodape a{
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+footer#rodape h2{
+    font-size: 20pt;
+    text-align: center;
+    padding: 10px;
+}
+
+footer#rodape a:hover{
+    background-color: black;
+    color: #FFA500;
+}

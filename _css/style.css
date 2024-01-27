@@ -1,13 +1,9 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'Pixel';
-    src: url('_fonts/Pixelfont.ttf');
+    src: url('../_fonts/Pixelfont.ttf');
 }
 
-div#interface{
-    width: 1200px;
-    padding: 30px;
-}
 body{
     background-color: #D4D4D4;
 }
@@ -37,6 +33,13 @@ nav#navega a{
     text-decoration: none;
     color: black;
 }
+nav#navega a:hover{
+    color: #FFA500;
+    background-color: black;
+    box-shadow: 1px 1px 1px black;
+    padding: 5px;
+    border-radius: 3px;
+}
 header#cabecalho nav#navega li{
     display: inline-block;
     text-transform: uppercase;
@@ -44,7 +47,6 @@ header#cabecalho nav#navega li{
     font-size: 30pt;
     padding: 5px;
     margin: 30px;
-    background-color: #FFA500;
     border-radius: 5px;
 }
 
