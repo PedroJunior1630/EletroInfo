@@ -3,9 +3,13 @@
     font-family: 'Pixel';
     src: url('../_fonts/Pixelfont.ttf');
 }
-
+@font-face {
+    font-family: 'Pixelt';
+    src: url('../_fonts/PixelifySans-VariableFont_wght.ttf');
+}
 body{
     background-color: #D4D4D4;
+    font-family: 'Pixelt'
 }
 
 header#cabecalho h1{
@@ -50,3 +54,28 @@ header#cabecalho nav#navega li{
     border-radius: 5px;
 }
 
+footer#rodape{
+    height: 50px;
+    clear: both;
+    background-color: #FFA500;
+    border-radius: 5px;
+}
+
+footer#rodape a{
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+footer#rodape h2{
+    font-size: 20pt;
+    text-align: center;
+    padding: 10px;
+}
+
+footer#rodape a:hover{
+    background-color: black;
+    color: #FFA500;
+}
