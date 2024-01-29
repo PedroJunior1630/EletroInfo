@@ -12,7 +12,10 @@ body{
     font-family: 'Pixel';
     background-color: #D4D4D4;
 }
-
+article img{
+    width: 300px;
+    height: 300px;
+}
 article {
     font-family: 'Pixelt';
 }
