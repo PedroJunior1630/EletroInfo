@@ -21,7 +21,7 @@ div#about {
     color: #FFA500;
 }
 
-section#sessao h1{
+section#sobre h1{
     position: relative;
     text-align: center;
     font-family: 'Pixel';
@@ -29,7 +29,7 @@ section#sessao h1{
     top: -10px;
 }
 
-section#sessao article {
+section#sobre article {
     font-size: 18pt;
 }
 
@@ -49,6 +49,7 @@ footer#rodape a{
 }
 
 footer#rodape h2{
+    font-family: 'Pixel';
     font-size: 20pt;
     text-align: center;
     padding: 10px;

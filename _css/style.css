@@ -7,9 +7,9 @@
     font-family: 'Pixelt';
     src: url('../_fonts/PixelifySans-VariableFont_wght.ttf');
 }
-body{
+body#corpo{
     background-color: #D4D4D4;
-    font-family: 'Pixelt'
+    font-family: 'Pixelt';
 }
 
 header#cabecalho h1{
@@ -70,6 +70,7 @@ footer#rodape a{
 }
 
 footer#rodape h2{
+    font-family: 'Pixel';
     font-size: 20pt;
     text-align: center;
     padding: 10px;
