@@ -67,9 +67,11 @@
         <p class = "exemplo" id = "valor">I:</p>
         <p class = "exemplo" id = "explica">Intensidade da corrente.</p>
         <div class = "calculando">
-            <input type = "number" placeholder = "R(Ohms)" size = "6" maxlength="6" id = "R">
-            <input type = "number" placeholder = "I(Amperes)" size = "6" maxlength="6" id = "I">
-            <button type = "submit" onclick="somaVolts()">-></button>
+            <input type = "number" placeholder = "R(Ohms)" size = "6" maxlength="6" id = "RE">
+            <input type = "number" placeholder = "I(Amperes)" size = "6" maxlength="6" id = "AM">
+            <input type = "submit" value = "->" onclick = "somaVolts()">
+            <h1 class = "result" id = "resulta">0</h1>
+            <h1 class = "result">Volts</h1>
         </div>
     </div>
 
