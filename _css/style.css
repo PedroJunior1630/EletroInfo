@@ -7,6 +7,10 @@
     font-family: 'Pixelt';
     src: url('../_fonts/PixelifySans-VariableFont_wght.ttf');
 }
+@font-face {
+    font-family: 'Quick';
+    src: url('../_fonts/Quicksand-VariableFont_wght.ttf');
+}
 body#corpo{
     background-color: #D4D4D4;
     font-family: 'Pixelt';
@@ -31,7 +35,6 @@ header#cabecalho nav#navega ol{
     list-style: none;
     left: 600px;
     top: 0px;
-
 }
 nav#navega a{
     text-decoration: none;
@@ -53,7 +56,42 @@ header#cabecalho nav#navega li{
     margin: 30px;
     border-radius: 5px;
 }
+section#sessao div.intro h1{
+    color: #FFA500;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+section#sessao div.intro p{
+    font-family: 'Quick';
+    font-size: 15pt;
+}
+section#sessao div.formula h1#obs{
+    display: inline-block;
+    background-color: #FFA500;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+section#sessao div.formula p.exemplo{
+    display: inline-flex;
 
+}
+section#sessao div.formula p#valor{
+    color: black;
+    text-shadow: 1px 1px 2px #FFA500;
+    font-size: 20pt;
+    font-family: 'Quick';
+}
+section#sessao div.formula p#explica{
+    position: relative;
+    color: rgb(103, 101, 101);
+    text-shadow: 1px 1px 1px black;
+    left: 40px;
+    font-size: 15pt;
+}
 footer#rodape{
     height: 50px;
     clear: both;

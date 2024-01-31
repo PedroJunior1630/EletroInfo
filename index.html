@@ -20,35 +20,58 @@
     </nav>
 </header>
 <section id = "sessao">
+
     <h1>Como descobrir o valor de uma unidade elétrica?</h1>
     <h2>Quais fórmulas são usadas?</h2>
     <p>Como vimos na área de <a href = "explica.html">explicação</a>, temos muitas grandezas, tais são: Carga elétrica, Tensão, Corrente, Resistência e Potência.</p>
     <p>Sabendo o que é isso, então como descobrirmos o valor dessas unidades? Quais fórmulas usam para descobrir? E quem inventou tais fórmulas? A seguir veremos todas as fórmulas das grandezas da eletricidade: </p>
-
     
+    <div class = "intro">
     <h1>Carga elétrica</h1>
-    <p>-e = -1,6 x 10<sup>-19</sup></p>
-    <p>+e = +1,6 x 10<sup>-19</sup></p>
+    <p>-e = -1,6 x 10<sup>-19</sup> ou +e = +1,6 x 10<sup>-19</sup></p>
     <p>Isto é, a medida de um átomo eletrizado, o valor da sua carga, a primeira fórmula é para um átomo que ganhou elétrons e a segunda para um que perdeu elétrons, esta fórmula é unicamente para calcular a eletricidade de um átomo.</p>
     <p>Q = ± N x |±e| C</p>
-    <p>Esta fórmula calcula a quantidade de carga elétrica, ou seja, podendo usar os valores vários átomos que foram eletrizados para calcular a sua carga..</p>
-    
+    <p>Esta fórmula calcula a quantidade de carga elétrica, ou seja, podendo usar os valores vários átomos que foram eletrizados para calcular a sua carga.</p>
+    </div>
+
     <div class = "formula">
-        <h1>Observe</h1>
-        <p class = "exemplo" id = "varivael">±e</p>
+        <h1 id = "obs">Observe</h1>
+        </br>
+        <p class = "exemplo" id = "valor">±e</p>
         <p class = "exemplo" id = "explica">Átomo que ganhou(-) ou perdeu(+) elétrons</p>
-        <p class = "exemplo"id = "variavel">±1,6</p>
-        <p class = "exemplo" id = "explica">Valor mínimo para cada elétron ganho(+) ou perdido (-)</p>
-        <p class = "exemplo" id = "variavel"> x 10<sup>-19</sup></p>
+        </br>
+        <p class = "exemplo"id = "valor">±1,6</p>
+        <p class = "exemplo" id = "explica">Valor mínimo para cada elétron ganho(-) ou perdido (+)</p>
+        </br>
+        <p class = "exemplo" id = "valor"> x 10<sup>-19</sup></p>
         <p class = "exemplo" id = "explica">Valor fixo para a fórmula.</p>
+        </br>
         <div class = "calculando">
-            <h1> id = "equal">=</h1>
-            <p> id = "result">0</p>
-            <h1 id = "simb">C(Coulomb)</h1>
         </div>
     </div>
 
-    <h1></h1>
+    <div class = "intro">
+    <h1>Tensão</h1>
+    <p>V = R x I</p>
+    <p>Isto é, tensão igual a resistência multiplicado pela corrente</p>
+    </div>
+    <div class = formula>
+        <h1 id = "obs">Observe</h1>
+        </br>
+        <p class = "exemplo" id = "valor">V:</p>
+        <p class = "exemplo" id = "explica">Força da corrente.</p>
+        </br>
+        <p class = "exemplo" id = "valor">R:</p>
+        <p class = "exemplo" id = "explica">Nível de oposição que o material vai oferecer a corrente.</p>
+        </br>
+        <p class = "exemplo" id = "valor">I:</p>
+        <p class = "exemplo" id = "explica">Intensidade da corrente.</p>
+        <div class = "calculando">
+            <input type = "number" placeholder = "R(Ohms)" size = "6" maxlength="6" id = "R">
+            <input type = "number" placeholder = "I(Amperes)" size = "6" maxlength="6" id = "I">
+            <button type = "submit" onclick="somaVolts()">-></button>
+        </div>
+    </div>
 
 </section>
 <footer id = "rodape">
