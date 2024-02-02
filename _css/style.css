@@ -56,6 +56,29 @@ header#cabecalho nav#navega li{
     margin: 30px;
     border-radius: 5px;
 }
+section#sessao div.titulos h1{
+    font-size: 25pt;
+    display: inline-block;
+    background-color: #FFA500;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+section#sessao div.titulos h2{
+    font-size: 20pt;
+    display: inline-block;
+    background-color: black;
+    color: #FFD700;
+}
+section#sessao div.titulos p{
+    text-indent: 30px;
+    text-align: justify;
+    color:rgb(70, 69, 69);
+    background-color:rgb(143, 138, 138);
+    font-size: 15pt;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
 section#sessao div.intro h1{
     color: #FFA500;
     background-color: black;
