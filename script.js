@@ -33,3 +33,4 @@ function calc_Watts(){
 
     document.getElementById("watts").value = pot;
 }
+
