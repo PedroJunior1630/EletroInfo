@@ -15,3 +15,4 @@ function calc_Amper(){
 
     document.getElementById("inpam").value = parseInt(corrente);
 }
+

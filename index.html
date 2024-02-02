@@ -97,7 +97,29 @@
             <input type = "number" size = "6" maxlength="6" placeholder="I(Amperes)" id = "inpam" readonly class = "valor">
         </div>
     </div>
-
+    <div class = "intro">
+        <h1>Resistência</h1>
+        <p> R = V / I</p>
+        <p>Isto é, Resistência igual a tensão divida pela corrente.</p>
+    </div>
+    <div class = "formula">
+        <h1 id = "obs">Observe</h1>
+        </br>
+        <p class = "exemplo" id = "valor"> R:</p>
+        <p class = "exemplo" id = "explica">Nível de oposição que o material vai oferecer contra a corrente elétrica.</p>
+        </br>
+        <p class = "exemplo" id = "valor">V:</p>
+        <p class = "exemplo" id = "explica">Força da corrente elétrica </p>
+        </br>
+        <p class = "exemplo" id = "valor">I:</p>
+        <p class = "exemplo" id = "explica">Intensidade da corrente elétrica em Amperes</p>
+        <div class = "calculando">
+            <input type = "number" size = "10" maxlength="6" placeholder="V(Volts)" id = "vore" class = "valor"/>
+            <input type = "number" size = "10" maxlenght="6" placeholder="I(Amperes)" id = "amre" class = "valor"/>
+            <input type = "button" value = "->" class = "botao" onclick="calc_Resis()"/>
+            <input type = "number" size = "6" maxlength="6" placeholder="R(Ohms)" id = "res" readonly class = "valor">
+        </div>
+    </div>
 </section>
 
 <footer id = "rodape">
