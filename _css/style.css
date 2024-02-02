@@ -92,6 +92,37 @@ section#sessao div.formula p#explica{
     left: 40px;
     font-size: 15pt;
 }
+input.valor{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Pixel';
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    margin: 3px; 
+}
+input.valor:hover{
+    background-color:rgb(153, 150, 150);
+    box-shadow: 4px 4px 4px black;
+}
+
+input.botao{
+    width: 30px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #FFA500;
+    color: black;
+    padding: 3px;
+    font-family: 'Pixel';
+}
+
+input.botao:hover{
+    background-color: #D4D4D4;
+}
 footer#rodape{
     height: 50px;
     clear: both;
