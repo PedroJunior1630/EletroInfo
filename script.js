@@ -16,3 +16,11 @@ function calc_Amper(){
     document.getElementById("inpam").value = parseInt(corrente);
 }
 
+function calc_Resis(){
+    var vo = parseInt(document.getElementById("vore").value);
+    var co =  parseInt(document.getElementById("amre").value);
+
+    var resistencia =  vo / co;
+
+    document.getElementById("res").value = parseInt(resistencia);
+}
