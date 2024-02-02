@@ -24,3 +24,12 @@ function calc_Resis(){
 
     document.getElementById("res").value = parseInt(resistencia);
 }
+
+function calc_Watts(){
+    var vo = parseInt(document.getElementById("vowa").value);
+    var co = parseInt(document.getElementById("amwa").value);
+
+    var pot = vo * co;
+
+    document.getElementById("watts").value = pot;
+}
