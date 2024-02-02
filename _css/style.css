@@ -62,12 +62,18 @@ section#sessao div.titulos h1{
     background-color: #FFA500;
     color: white;
     text-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 section#sessao div.titulos h2{
     font-size: 20pt;
     display: inline-block;
     background-color: black;
     color: #FFD700;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 section#sessao div.titulos p{
     text-indent: 30px;
