@@ -73,10 +73,36 @@
             <input type = "number" id = "volt" size = "6" maxlenght="6" placeholder="Volts" readonly class = "valor"/>
         </div>
     </div>
+    <div class = "intro">
+        <h1>Corrente(Amperagem)</h1>
+        <p>I = V / R</p>
+        <p>Isto é corrente elétrica igual a tensão divida pela resistência</p>
+    </div>
+
+    <div class = "formula">
+        <h1 id = "obs">Observe</h1>
+        </br>
+        <p class = "exemplo" id = "valor">I:</p>
+        <p class = "exemplo" id = "explica">Intensidade da corrente elétrica em Amperes</p>
+        </br>
+        <p class = "exemplo" id = "valor">V:</p>
+        <p class = "exemplo" id = "explica">Força da corrente elétrica </p>
+        </br>
+        <p class = "exemplo" id = "valor">R:</p>
+        <p class = "exemplo" id = "explica">Nível de oposição que o material vai oferecer contra a corrente elétrica.</p>
+        <div class = "calculando">
+            <input type = "number" size = "10" maxlength="6" placeholder="V(Volts)" id = "AMI" class = "valor"/>
+            <input type = "number" size = "10" maxlenght="6" placeholder="R(Ohms)" id = "REI" class = "valor"/>
+            <input type = "button" value = "->" class = "botao" onclick="calculaAmperes()"/>
+            <input type = "number" size = "10" maxlength="6" placeholder="I(Amperes)" id = "amperes" readonly class = "valor">
+        </div>
+    </div>
 
 </section>
+
 <footer id = "rodape">
     <h2><a href = "https://instagram.com/ph_dev_" target = "_blank">&copyPH DEV PRODUCTIONS</a></h2>
 </footer>
+
 </body>
 </html>
