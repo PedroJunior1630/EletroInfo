@@ -1,10 +1,8 @@
 function somaVolts(){
-    var re = document.getElementById("RE");
-    var co = document.getElementById("AM");
+    var re = parseInt(document.getElementById("RE"));
+    var co = parseInt(document.getElementById("AM"));
 
-    var r = re.innerText;
-    var i = co.innerText;
-    var volts = parseInt(r) * parseInt(i);
+    var volts = re * co;
 
-    document.getElementById("resulta").textContent = volts;
+    document.getElementById("resulta").value = volts;
 }
