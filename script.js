@@ -34,3 +34,9 @@ function calc_Watts(){
     document.getElementById("watts").value = pot;
 }
 
+function calc_Atomo(){
+    var ele =  parseInt(document.getElementById("ele").value);
+
+    var coulomb = ele * 1.6 * 10 ** -19;
+    document.getElementById("coul").value = coulomb;
+}
