@@ -85,6 +85,21 @@ section#sessao div.titulos p{
     margin: 10px;
     border-radius: 5px;
 }
+section#sessao div.intro img{
+    position: relative;
+    left: 400px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+section#sessao div.intro img:hover{
+    position: relative;
+    left: 400px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #7c7b7b;
+    border-radius: 5px;
+    padding: 10px;
+}
 section#sessao div.intro h1{
     color: #FFA500;
     background-color: black;
