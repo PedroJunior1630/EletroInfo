@@ -136,9 +136,11 @@ section#sessao div.formula p.exemplo{
 }
 section#sessao div.formula p#valor{
     color: black;
-    text-shadow: 1px 1px 2px #FFA500;
+    background-color: #FFA500;
     font-size: 20pt;
     font-family: 'Quick';
+    border-radius: 5px;
+    padding: 5px;
 }
 section#sessao div.formula p#explica{
     position: relative;
