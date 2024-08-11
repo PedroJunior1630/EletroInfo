@@ -10,29 +10,35 @@
 
 body{
     font-family: 'Pixelt';
-}
-div#about {
-    width: 800px;
-    height: 500px;
-    background-color: #4D4D4D;
-    border-radius: 10px;
-    padding: 40px;
-    margin: -100px auto 40px auto;
-    color: #FFA500;
+    background-color:#B3B3B3;
 }
 
-section#sobre h1{
+section h1{
     position: relative;
     text-align: center;
     font-family: 'Pixel';
     font-size: 40pt;
-    top: -10px;
+    top: -80px;
+    color: #FFD700;
+    text-shadow: 4px 2px 2px black;
 }
 
 section#sobre article {
+    position: relative;
+    top: -60px;
     font-size: 18pt;
+    position: relative;
 }
-
+section#sobre article p#paragrafo{
+    text-indent: 25px;
+}
+section p.alterado{
+    position: relative;
+    font-size: 8pt;
+    color: rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    text-align: right;
+}
 footer#rodape{
     height: 50px;
     clear: both;
